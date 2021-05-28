@@ -92,7 +92,7 @@ if button:
     st.write('Average Rating', H[H['product_title']=='{}'.format(game)].star_rating.mean())
 
     st.markdown('''---''')
-    st.write('Positive Review Topics (4 & 5 Stars')
+    st.write('Positive Review Topics (4 & 5 Stars)')
     st.write(H_new.loc[(H_new['product_title'] == '{}'.format(game)) & (H_new['star_rating'] == 'positive')].mean().sort_values(ascending=False))
-    st.write('Negative Review Topics (1 & 2 Stars')
-    st.write(H_new.loc[(H_new['product_title'] == 'Tropico 5') & (H_new['star_rating'] == 'positive')].mean().sort_values(ascending=False))
+    st.write('Negative Review Topics (1 & 2 Stars)')
+    st.write(H_new.loc[(H_new['product_title'] == '{}'.format(game)) & (H_new['star_rating'] == 'positive')].mean().sort_values(ascending=False))
