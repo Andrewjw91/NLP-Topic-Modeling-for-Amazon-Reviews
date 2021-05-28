@@ -16,7 +16,7 @@ My final product was an interactive Streamlit web app that allows users to selec
 
 ## Data
 
-I download my dataset as CSV from a Kaggle repository of Amazon reviews. I cleaned the data by removing rows with null values, and I removed rows with reviews less than 30 characters. There were many reviews containing only a few words (e.g. "Five Stars", "Great!", "Nice"), which would not contribute to insightful results. The cleaned dataset consisted of 124,650 review documents, and 3 columns (Product Title, Star Rating, Review Text). The date range of the reviews were from 2010 to 2015.
+I downloaded my dataset as CSV from a Kaggle repository of Amazon reviews. I cleaned the data by removing rows with null values, and I removed rows with reviews less than 30 characters. There were many reviews containing only a few words (e.g. "Five Stars", "Great!", "Nice"), which would not contribute to insightful results. The cleaned dataset consisted of 124,650 review documents, and 3 columns (Product Title, Star Rating, Review Text). The date range of the reviews were from 2010 to 2015.
 
 Below are the 10 topics that I subjectively labeled through the process of examining the top associated terms, and the documents with the highest expression of each topic. The top 15 terms are displayed as summary.
 
