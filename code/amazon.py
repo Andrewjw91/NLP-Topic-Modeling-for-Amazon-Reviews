@@ -95,4 +95,4 @@ if button:
     st.write('Positive Review Topics (4 & 5 Stars)')
     st.write(H_new.loc[(H_new['product_title'] == '{}'.format(game)) & (H_new['star_rating'] == 'positive')].mean().sort_values(ascending=False))
     st.write('Negative Review Topics (1 & 2 Stars)')
-    st.write(H_new.loc[(H_new['product_title'] == '{}'.format(game)) & (H_new['star_rating'] == 'positive')].mean().sort_values(ascending=False))
+    st.write(H_new.loc[(H_new['product_title'] == '{}'.format(game)) & (H_new['star_rating'] == 'negative')].mean().sort_values(ascending=False))
