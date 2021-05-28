@@ -36,7 +36,7 @@ Topic  7 <b>(Downloadable Content)</b>: new, expansion, content, version, old, m
 
 Topic  8 <b>(Worthwhile)</b>: time, first, every, long, hours, back, take, go, money, times, find, around, try, going, start
 
-Topic  9 <b>(Difficulty</b>: fun, much, love, easy, little, pretty, challenging, levels, recommend, hours, well, bit, worth, different, graphics
+Topic  9 <b>(Difficulty)</b>: fun, much, love, easy, little, pretty, challenging, levels, recommend, hours, well, bit, worth, different, graphics
 
 Topic  10 <b>(Performance)</b>: good, graphics, pretty, story, bad, pc, well, better, price, worth, nice, best, overall, sound, easy
 
